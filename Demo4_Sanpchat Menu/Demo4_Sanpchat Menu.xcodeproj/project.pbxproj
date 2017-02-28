@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F161C1CC1CF81CA80015564F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F161C1CB1CF81CA80015564F /* Main.storyboard */; };
+		F1F5E4E61CE9741C00E9F64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5E4E51CE9741C00E9F64A /* AppDelegate.swift */; };
+		F1F5E4E81CE9741C00E9F64A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5E4E71CE9741C00E9F64A /* ViewController.swift */; };
+		F1F5E4ED1CE9741C00E9F64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F5E4EC1CE9741C00E9F64A /* Assets.xcassets */; };
+		F1F5E4F01CE9741C00E9F64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F5E4EE1CE9741C00E9F64A /* LaunchScreen.storyboard */; };
+		F1F5E4FB1CE9741C00E9F64A /* Demo4_Sanpchat_MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5E4FA1CE9741C00E9F64A /* Demo4_Sanpchat_MenuTests.swift */; };
+		F1F5E5061CE9741C00E9F64A /* Demo4_Sanpchat_MenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5E5051CE9741C00E9F64A /* Demo4_Sanpchat_MenuUITests.swift */; };
+		F1F5E5181CE974B200E9F64A /* leftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5E5171CE974B200E9F64A /* leftView.swift */; };
+		F1F5E51A1CE974BE00E9F64A /* middleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5E5191CE974BE00E9F64A /* middleView.swift */; };
+		F1F5E51C1CE974C900E9F64A /* rightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F5E51B1CE974C900E9F64A /* rightView.swift */; };
+		F1F5E51E1CE9751100E9F64A /* leftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1F5E51D1CE9751100E9F64A /* leftView.xib */; };
+		F1F5E5201CE9751C00E9F64A /* middleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1F5E51F1CE9751C00E9F64A /* middleView.xib */; };
+		F1F5E5221CE9752700E9F64A /* rightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1F5E5211CE9752700E9F64A /* rightView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1F5E4F71CE9741C00E9F64A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1F5E4DA1CE9741C00E9F64A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1F5E4E11CE9741C00E9F64A;
+			remoteInfo = "Demo4_Sanpchat Menu";
+		};
+		F1F5E5021CE9741C00E9F64A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1F5E4DA1CE9741C00E9F64A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1F5E4E11CE9741C00E9F64A;
+			remoteInfo = "Demo4_Sanpchat Menu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F161C1CB1CF81CA80015564F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F1F5E4E21CE9741C00E9F64A /* Demo4_Sanpchat Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo4_Sanpchat Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F5E4E51CE9741C00E9F64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1F5E4E71CE9741C00E9F64A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1F5E4EC1CE9741C00E9F64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1F5E4EF1CE9741C00E9F64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1F5E4F11CE9741C00E9F64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F5E4F61CE9741C00E9F64A /* Demo4_Sanpchat MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo4_Sanpchat MenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F5E4FA1CE9741C00E9F64A /* Demo4_Sanpchat_MenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo4_Sanpchat_MenuTests.swift; sourceTree = "<group>"; };
+		F1F5E4FC1CE9741C00E9F64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F5E5011CE9741C00E9F64A /* Demo4_Sanpchat MenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo4_Sanpchat MenuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F5E5051CE9741C00E9F64A /* Demo4_Sanpchat_MenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo4_Sanpchat_MenuUITests.swift; sourceTree = "<group>"; };
+		F1F5E5071CE9741C00E9F64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F5E5171CE974B200E9F64A /* leftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leftView.swift; sourceTree = "<group>"; };
+		F1F5E5191CE974BE00E9F64A /* middleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = middleView.swift; sourceTree = "<group>"; };
+		F1F5E51B1CE974C900E9F64A /* rightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rightView.swift; sourceTree = "<group>"; };
+		F1F5E51D1CE9751100E9F64A /* leftView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = leftView.xib; sourceTree = "<group>"; };
+		F1F5E51F1CE9751C00E9F64A /* middleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = middleView.xib; sourceTree = "<group>"; };
+		F1F5E5211CE9752700E9F64A /* rightView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = rightView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1F5E4DF1CE9741C00E9F64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F5E4F31CE9741C00E9F64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F5E4FE1CE9741C00E9F64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1F5E4D91CE9741C00E9F64A = {
+			isa = PBXGroup;
+			children = (
+				F1F5E4E41CE9741C00E9F64A /* Demo4_Sanpchat Menu */,
+				F1F5E4F91CE9741C00E9F64A /* Demo4_Sanpchat MenuTests */,
+				F1F5E5041CE9741C00E9F64A /* Demo4_Sanpchat MenuUITests */,
+				F1F5E4E31CE9741C00E9F64A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1F5E4E31CE9741C00E9F64A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1F5E4E21CE9741C00E9F64A /* Demo4_Sanpchat Menu.app */,
+				F1F5E4F61CE9741C00E9F64A /* Demo4_Sanpchat MenuTests.xctest */,
+				F1F5E5011CE9741C00E9F64A /* Demo4_Sanpchat MenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1F5E4E41CE9741C00E9F64A /* Demo4_Sanpchat Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F1F5E4E51CE9741C00E9F64A /* AppDelegate.swift */,
+				F1F5E4E71CE9741C00E9F64A /* ViewController.swift */,
+				F1F5E5171CE974B200E9F64A /* leftView.swift */,
+				F1F5E51D1CE9751100E9F64A /* leftView.xib */,
+				F1F5E5191CE974BE00E9F64A /* middleView.swift */,
+				F1F5E51F1CE9751C00E9F64A /* middleView.xib */,
+				F1F5E51B1CE974C900E9F64A /* rightView.swift */,
+				F1F5E5211CE9752700E9F64A /* rightView.xib */,
+				F161C1CB1CF81CA80015564F /* Main.storyboard */,
+				F1F5E4EC1CE9741C00E9F64A /* Assets.xcassets */,
+				F1F5E4EE1CE9741C00E9F64A /* LaunchScreen.storyboard */,
+				F1F5E4F11CE9741C00E9F64A /* Info.plist */,
+			);
+			path = "Demo4_Sanpchat Menu";
+			sourceTree = "<group>";
+		};
+		F1F5E4F91CE9741C00E9F64A /* Demo4_Sanpchat MenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1F5E4FA1CE9741C00E9F64A /* Demo4_Sanpchat_MenuTests.swift */,
+				F1F5E4FC1CE9741C00E9F64A /* Info.plist */,
+			);
+			path = "Demo4_Sanpchat MenuTests";
+			sourceTree = "<group>";
+		};
+		F1F5E5041CE9741C00E9F64A /* Demo4_Sanpchat MenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1F5E5051CE9741C00E9F64A /* Demo4_Sanpchat_MenuUITests.swift */,
+				F1F5E5071CE9741C00E9F64A /* Info.plist */,
+			);
+			path = "Demo4_Sanpchat MenuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1F5E4E11CE9741C00E9F64A /* Demo4_Sanpchat Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F5E50A1CE9741C00E9F64A /* Build configuration list for PBXNativeTarget "Demo4_Sanpchat Menu" */;
+			buildPhases = (
+				F1F5E4DE1CE9741C00E9F64A /* Sources */,
+				F1F5E4DF1CE9741C00E9F64A /* Frameworks */,
+				F1F5E4E01CE9741C00E9F64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo4_Sanpchat Menu";
+			productName = "Demo4_Sanpchat Menu";
+			productReference = F1F5E4E21CE9741C00E9F64A /* Demo4_Sanpchat Menu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1F5E4F51CE9741C00E9F64A /* Demo4_Sanpchat MenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F5E50D1CE9741C00E9F64A /* Build configuration list for PBXNativeTarget "Demo4_Sanpchat MenuTests" */;
+			buildPhases = (
+				F1F5E4F21CE9741C00E9F64A /* Sources */,
+				F1F5E4F31CE9741C00E9F64A /* Frameworks */,
+				F1F5E4F41CE9741C00E9F64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1F5E4F81CE9741C00E9F64A /* PBXTargetDependency */,
+			);
+			name = "Demo4_Sanpchat MenuTests";
+			productName = "Demo4_Sanpchat MenuTests";
+			productReference = F1F5E4F61CE9741C00E9F64A /* Demo4_Sanpchat MenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1F5E5001CE9741C00E9F64A /* Demo4_Sanpchat MenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F5E5101CE9741C00E9F64A /* Build configuration list for PBXNativeTarget "Demo4_Sanpchat MenuUITests" */;
+			buildPhases = (
+				F1F5E4FD1CE9741C00E9F64A /* Sources */,
+				F1F5E4FE1CE9741C00E9F64A /* Frameworks */,
+				F1F5E4FF1CE9741C00E9F64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1F5E5031CE9741C00E9F64A /* PBXTargetDependency */,
+			);
+			name = "Demo4_Sanpchat MenuUITests";
+			productName = "Demo4_Sanpchat MenuUITests";
+			productReference = F1F5E5011CE9741C00E9F64A /* Demo4_Sanpchat MenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1F5E4DA1CE9741C00E9F64A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lushuishasha;
+				TargetAttributes = {
+					F1F5E4E11CE9741C00E9F64A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F1F5E4F51CE9741C00E9F64A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F1F5E4E11CE9741C00E9F64A;
+					};
+					F1F5E5001CE9741C00E9F64A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F1F5E4E11CE9741C00E9F64A;
+					};
+				};
+			};
+			buildConfigurationList = F1F5E4DD1CE9741C00E9F64A /* Build configuration list for PBXProject "Demo4_Sanpchat Menu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1F5E4D91CE9741C00E9F64A;
+			productRefGroup = F1F5E4E31CE9741C00E9F64A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1F5E4E11CE9741C00E9F64A /* Demo4_Sanpchat Menu */,
+				F1F5E4F51CE9741C00E9F64A /* Demo4_Sanpchat MenuTests */,
+				F1F5E5001CE9741C00E9F64A /* Demo4_Sanpchat MenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1F5E4E01CE9741C00E9F64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F5E51E1CE9751100E9F64A /* leftView.xib in Resources */,
+				F1F5E5201CE9751C00E9F64A /* middleView.xib in Resources */,
+				F1F5E5221CE9752700E9F64A /* rightView.xib in Resources */,
+				F161C1CC1CF81CA80015564F /* Main.storyboard in Resources */,
+				F1F5E4F01CE9741C00E9F64A /* LaunchScreen.storyboard in Resources */,
+				F1F5E4ED1CE9741C00E9F64A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F5E4F41CE9741C00E9F64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F5E4FF1CE9741C00E9F64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1F5E4DE1CE9741C00E9F64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F5E51C1CE974C900E9F64A /* rightView.swift in Sources */,
+				F1F5E4E81CE9741C00E9F64A /* ViewController.swift in Sources */,
+				F1F5E51A1CE974BE00E9F64A /* middleView.swift in Sources */,
+				F1F5E5181CE974B200E9F64A /* leftView.swift in Sources */,
+				F1F5E4E61CE9741C00E9F64A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F5E4F21CE9741C00E9F64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F5E4FB1CE9741C00E9F64A /* Demo4_Sanpchat_MenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F5E4FD1CE9741C00E9F64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F5E5061CE9741C00E9F64A /* Demo4_Sanpchat_MenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1F5E4F81CE9741C00E9F64A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1F5E4E11CE9741C00E9F64A /* Demo4_Sanpchat Menu */;
+			targetProxy = F1F5E4F71CE9741C00E9F64A /* PBXContainerItemProxy */;
+		};
+		F1F5E5031CE9741C00E9F64A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1F5E4E11CE9741C00E9F64A /* Demo4_Sanpchat Menu */;
+			targetProxy = F1F5E5021CE9741C00E9F64A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1F5E4EE1CE9741C00E9F64A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1F5E4EF1CE9741C00E9F64A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1F5E5081CE9741C00E9F64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1F5E5091CE9741C00E9F64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1F5E50B1CE9741C00E9F64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo4_Sanpchat Menu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bufeishi.Demo4-Sanpchat-Menu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1F5E50C1CE9741C00E9F64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo4_Sanpchat Menu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bufeishi.Demo4-Sanpchat-Menu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1F5E50E1CE9741C00E9F64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Demo4_Sanpchat MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bufeishi.Demo4-Sanpchat-MenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo4_Sanpchat Menu.app/Demo4_Sanpchat Menu";
+			};
+			name = Debug;
+		};
+		F1F5E50F1CE9741C00E9F64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Demo4_Sanpchat MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bufeishi.Demo4-Sanpchat-MenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo4_Sanpchat Menu.app/Demo4_Sanpchat Menu";
+			};
+			name = Release;
+		};
+		F1F5E5111CE9741C00E9F64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Demo4_Sanpchat MenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bufeishi.Demo4-Sanpchat-MenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Demo4_Sanpchat Menu";
+			};
+			name = Debug;
+		};
+		F1F5E5121CE9741C00E9F64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Demo4_Sanpchat MenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bufeishi.Demo4-Sanpchat-MenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Demo4_Sanpchat Menu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1F5E4DD1CE9741C00E9F64A /* Build configuration list for PBXProject "Demo4_Sanpchat Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F5E5081CE9741C00E9F64A /* Debug */,
+				F1F5E5091CE9741C00E9F64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F5E50A1CE9741C00E9F64A /* Build configuration list for PBXNativeTarget "Demo4_Sanpchat Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F5E50B1CE9741C00E9F64A /* Debug */,
+				F1F5E50C1CE9741C00E9F64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F5E50D1CE9741C00E9F64A /* Build configuration list for PBXNativeTarget "Demo4_Sanpchat MenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F5E50E1CE9741C00E9F64A /* Debug */,
+				F1F5E50F1CE9741C00E9F64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F5E5101CE9741C00E9F64A /* Build configuration list for PBXNativeTarget "Demo4_Sanpchat MenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F5E5111CE9741C00E9F64A /* Debug */,
+				F1F5E5121CE9741C00E9F64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1F5E4DA1CE9741C00E9F64A /* Project object */;
+}
